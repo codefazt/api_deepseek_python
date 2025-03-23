@@ -66,7 +66,7 @@ def main():
 
     # Configuration
     # API_KEY = "sk-f26f9c824b5c5cd1bf433589119667c5"
-    API_ENDPOINT = "http://192.168.56.1:1234/v1/chat/completions"  # path of local deepseek endpoint
+    API_ENDPOINT = "http://172.16.0.3:1234/v1/chat/completions"  # path of local deepseek endpoint
 
     headers = {
         # "Authorization": f"Bearer {API_KEY}",
